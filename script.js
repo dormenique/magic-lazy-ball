@@ -1,10 +1,8 @@
 function askButton() {
-  let userQuestion = document.getElementById("question").value;
-  console.log(userQuestion);
+  const userQuestion = document.getElementById("question").value;
 
   if (userQuestion) {
-    let randomNumber = Math.floor(Math.random() * 8);
-    let eightBall = randomNumber;
+    let eightBall = Math.floor(Math.random() * 8);
 
     switch (eightBall) {
       case 1:
