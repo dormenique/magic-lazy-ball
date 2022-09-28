@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&family=Work+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "VT323", monospace;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to left,
+    #7d1e6a,
+    #eeb0b0,
+    #ffe59d,
+    #bde6f1,
+    #fff
+  );
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+input {
+  width: 390px;
+  height: 30px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+button {
+  color: white;
+  font-family: "VT323", monospace;
+  text-transform: uppercase;
+  background-color: #7d1e6a;
+  border: none;
+  margin-left: 10px;
+  height: 30px;
+}
+
+button:hover {
+  color: #7d1e6a;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.app {
+  text-align: center;
+  margin-top: 20px;
+  border: 5px dotted #555;
+  padding: 50px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ball-shape {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background-color: #666;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 40px 0 10px 0 rgba(0, 0, 0, 0.8) inset;
+}
+
+.ball-content {
+  padding-top: 120px;
+}
+
+.h3-ball {
+  color: white;
+}
+
+.display-answer {
+  margin: auto;
+  width: 300px;
+  max-width: 300px;
+  background-color: #92a863;
+  border: 2px solid black;
+  height: 50px;
+  max-height: 55px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.answer-value {
+  letter-spacing: 0.2rem;
+  padding: 20px;
+}
+
+.do-it-again {
+  margin-top: 50px;
+}

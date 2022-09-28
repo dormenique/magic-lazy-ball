@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magic LAZY ball</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <h1>Magic Lazy Ball</h1>
+      </header>
+      <h3>Hello! Let's see what is up with the future...</h3>
+      <input
+        class="question"
+        id="question"
+        type="text"
+        placeholder="Insert your question here"
+      />
+      <button onclick="{askButton()}">Ask</button>
+
+      <div class="ball-shape">
+        <div class="ball-content">
+          <h3 class="h3-ball">The Magic Lazy Ball answers...</h3>
+          <div class="display-answer">
+            <span id="answer-value"></span>
+          </div>
+        </div>
+        <button class="do-it-again" onclick="{doItAgain()}">Do it again</button>
+      </div>
+    </div>
+    <footer>
+      Made with Love by <a href="github.com/dormenique">@dormenique</a>
+    </footer>
+  </body>
+</html>
